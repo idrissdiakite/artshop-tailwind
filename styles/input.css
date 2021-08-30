@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.links {
+    @apply text-sm cursor-pointer py-1 px-2 mr-2
+}
+
+.cards {
+    @apply grid grid-cols-1 justify-center items-center mx-auto max-w-full gap-y-6
+}
+
+.card {
+    @apply cursor-pointer
+}
+
+.card-img {
+    @apply w-full transition ease-in duration-300 object-cover h-sm
+}
+
+.card-info {
+    @apply flex justify-between py-1 px-3 bg-yellow-50
+}
+
+.btn-plus {
+    @apply py-2 px-12 text-sm bg-gray-100 cursor-pointer rounded-sm mt-2 transition-all
+}

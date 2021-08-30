@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artshop</title>
+    <link rel="stylesheet" href="styles/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <main>
+      <! -- navigation -->
+      <nav
+        class="
+          flex
+          justify-between
+          items-center
+          sticky
+          top-0
+          bg-white
+          shadow-sm
+          p-4
+          z-10
+        "
+      >
+        <img
+          src="./assets/logo.png"
+          class="w-10 mr-5 lg:w-14 xl:w-10 2xl:w-16"
+        />
+        <div class="flex items-center">
+          <ul class="flex">
+            <li
+              class="
+                cursor-pointer
+                py-1
+                px-2
+                mr-1
+                hover:bg-yellow-50
+                lg:text-xl
+                xl:py-3 xl:px-4
+              "
+            >
+              Accueil
+            </li>
+            <li
+              class="
+                cursor-pointer
+                py-1
+                px-2
+                mr-1
+                hover:bg-yellow-50
+                lg:text-xl
+                xl:py-3 xl:px-4
+              "
+            >
+              Boutique
+            </li>
+            <li
+              class="
+                cursor-pointer
+                py-1
+                px-2
+                mr-3
+                hover:bg-yellow-50
+                lg:text-xl
+                xl:py-3 xl:px-4
+              "
+            >
+              Contact
+            </li>
+          </ul>
+
+          <div class="flex mr-3">
+            <img
+              src="./assets/svg/heart.svg"
+              class="cursor-pointer mr-2 w-4 xl:w-6"
+            />
+            <img
+              src="./assets/svg/shopping-cart.svg"
+              class="cursor-pointer w-4 xl:w-6"
+            />
+          </div>
+        </div>
+      </nav>
+
+      <! -- header -->
+      <header
+        class="
+          flex flex-col
+          justify-center
+          items-center
+          p-12
+          pt-16
+          bg-yellow-50
+        "
+      >
+        <h1
+          class="
+            text-center text-3xl
+            font-bold
+            mb-2
+            max-w-md
+            md:text-6xl
+            xl:text-8xl
+          "
+        >
+          Artshop
+        </h1>
+        <h2 class="text-center text-2xl md:text-3xl font-bold mb-2 max-w-md">
+          Paradis des oeuvres d'art
+        </h2>
+        <a href="#photography">
+          <button
+            class="
+              py-2
+              px-3
+              mb-5
+              text-sm
+              bg-gray-100
+              cursor-pointer
+              rounded-sm
+              mt-2
+              hover:bg-yellow-200
+            "
+          >
+            Découvrir <i class="fas fa-mouse-pointer"></i>
+          </button>
+        </a>
+      </header>
+
+      <! -- section painting -->
+      <section id="painting" class="p-6 mt-10">
+        <h2 class="font-bold text-2xl text-center uppercase mb-5">Peintures</h2>
+
+        <! -- cards -->
+        <div
+          class="
+            cards
+            md:grid-cols-auto-fill-md md:gap-x-4
+            lg:grid-cols-auto-fill-lg lg:gap-x-6 lg:gap-y-8
+            xl:grid-cols-auto-fill-xl xl:gap-x-4
+            2xl:grid-cols-4 2xl:max-w-4/5
+          "
+        >
+          <! -- single card -->
+          <div class="card xl:max-w-full">
+            <img
+              src="./assets/1.jpg"
+              alt="Flowers in a Metal Vase"
+              class="card-img hover:opacity-90 xl:h-xl 2xl:h-lg"
+            />
+            <div class="card-info hover:bg-yellow-200">
+              <div>
+                <h4 class="font-bold 2xl:text-xl">Abraham Mignon</h4>
+                <h4 class="-mt-1 2xl:text-xl">Flowers in a metal vase</h4>
+              </div>
+              <h4 class="font-bold 2xl:text-xl">4.699€</h4>
+            </div>
+          </div>
+
+          <! -- single card -->
+          <div class="card xl:max-w-full">
+            <img
+              src="./assets/7.jpg"
+              alt="Vase of flowers in a window"
+              class="card-img hover:opacity-90 xl:h-xl 2xl:h-lg"
+            />
+            <div class="card-info hover:bg-yellow-200">
+              <div>
+                <h4 class="font-bold 2xl:text-xl">Ambrosius Bosschaert</h4>
+                <h4 class="-mt-1 2xl:text-xl">Vase of flowers in a window</h4>
+              </div>
+              <h4 class="font-bold 2xl:text-xl">9.500€</h4>
+            </div>
+          </div>
+
+          <! -- single card -->
+          <div class="card xl:max-w-full">
+            <img
+              src="./assets/2.jpg"
+              alt="The straw hat"
+              class="card-img hover:opacity-90 xl:h-xl 2xl:h-lg"
+            />
+            <div class="card-info hover:bg-yellow-200">
+              <div>
+                <h4 class="font-bold 2xl:text-xl">Nikos Lytras</h4>
+                <h4 class="-mt-1 2xl:text-xl">The straw hat</h4>
+              </div>
+              <h4 class="font-bold 2xl:text-xl">2.300€</h4>
+            </div>
+          </div>
+
+          <! -- single card -->
+          <div class="card xl:max-w-full last-item">
+            <img
+              src="./assets/3.jpg"
+              alt="Wooded landscape"
+              class="card-img hover:opacity-90 xl:h-xl 2xl:h-lg"
+            />
+            <div class="card-info hover:bg-yellow-200">
+              <div>
+                <h4 class="font-bold 2xl:text-xl">Rijksmuseum</h4>
+                <h4 class="-mt-1 2xl:text-xl">Wooded landscape</h4>
+              </div>
+              <h4 class="font-bold 2xl:text-xl">1090€</h4>
+            </div>
+          </div>
+        </div>
+
+        <! -- btn -->
+        <div class="text-center mt-5 mb-12 m-3">
+          <button
+            class="btn-plus hover:bg-yellow-200 xl:py-2 xl:px-6 2xl:text-xl"
+          >
+            Voir la suite
+          </button>
+        </div>
+      </section>
+
+      <! -- section photography -->
+      <section id="photography" class="p-6 pt-4 bg-white">
+        <h2 class="font-bold text-2xl text-center uppercase mb-5">
+          Photographies
+        </h2>
+
+        <! -- cards -->
+        <div
+          class="
+            cards
+            md:grid-cols-auto-fill-md md:gap-x-4
+            lg:grid-cols-auto-fill-lg lg:gap-x-6 lg:gap-y-8
+            xl:grid-cols-auto-fill-xl xl:gap-x-4
+            2xl:grid-cols-4 2xl:max-w-4/5
+          "
+        >
+          <! -- single card -->
+          <div class="card xl:max-w-full">
+            <img
+              src="./assets/6.jpg"
+              alt="It's just a cigarette"
+              class="card-img hover:opacity-90 lg:h-lg xl:h-xl 2xl:h-lg"
+            />
+            <div class="card-info hover:bg-yellow-200">
+              <div>
+                <h4 class="font-bold 2xl:text-xl">Roman Melnychuk</h4>
+                <h4 class="-mt-1 2xl:text-xl">It's just a cigarette</h4>
+              </div>
+              <h4 class="font-bold 2xl:text-xl">1.280€</h4>
+            </div>
+          </div>
+
+          <! -- single card -->
+          <div class="card xl:max-w-full">
+            <img
+              src="./assets/5.jpg"
+              alt="Reflecting light"
+              class="card-img hover:opacity-90 lg:h-lg xl:h-xl 2xl:h-lg"
+            />
+            <div class="card-info hover:bg-yellow-200">
+              <div>
+                <h4 class="font-bold 2xl:text-xl">Blake Cheek</h4>
+                <h4 class="-mt-1 2xl:text-xl">Reflecting light</h4>
+              </div>
+              <h4 class="font-bold 2xl:text-xl">850€</h4>
+            </div>
+          </div>
+
+          <! -- single card -->
+          <div class="card xl:max-w-full">
+            <img
+              src="./assets/11.jpg"
+              alt="Woman in white shirt"
+              class="card-img hover:opacity-90 lg:h-lg xl:h-xl 2xl:h-lg"
+            />
+            <div class="card-info hover:bg-yellow-200">
+              <div>
+                <h4 class="font-bold 2xl:text-xl">Logan Weaver</h4>
+                <h4 class="-mt-1 2xl:text-xl">Woman in white shirt</h4>
+              </div>
+              <h4 class="font-bold 2xl:text-xl">279€</h4>
+            </div>
+          </div>
+
+          <! -- single card -->
+          <div class="card xl:max-w-full last-item">
+            <img
+              src="./assets/4.jpg"
+              alt="Somewhere in Lyon..."
+              class="card-img hover:opacity-90 lg:h-lg xl:h-xl 2xl:h-lg"
+            />
+            <div class="card-info hover:bg-yellow-200">
+              <div>
+                <h4 class="font-bold 2xl:text-xl">David Werbrouck</h4>
+                <h4 class="-mt-1 2xl:text-xl">Somewhere in Lyon...</h4>
+              </div>
+              <h4 class="font-bold 2xl:text-xl">699€</h4>
+            </div>
+          </div>
+        </div>
+
+        <! -- btn -->
+        <div class="text-center mt-5 mb-12 m-3">
+          <button
+            class="btn-plus hover:bg-yellow-200 xl:py-2 xl:px-6 2xl:text-xl"
+          >
+            Voir la suite
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <! -- footer -->
+    <footer
+      class="
+        flex
+        items-center
+        justify-between
+        mt-08
+        bg-black
+        text-white
+        px-8
+        py-5
+        h-auto
+        xl:px-32
+      "
+    >
+      <div>
+        <ul class="flex">
+          <li
+            class="
+              cursor-pointer
+              hover:text-yellow-200
+              mr-3
+              lg:text-xl lg:mr-2
+              xl:py-3 xl:px-1
+            "
+          >
+            Accueil
+          </li>
+          <li
+            class="
+              cursor-pointer
+              hover:text-yellow-200
+              mr-3
+              lg:text-xl lg:mr-2
+              xl:py-3 xl:px-1
+            "
+          >
+            Boutique
+          </li>
+          <li
+            class="
+              cursor-pointer
+              hover:text-yellow-200
+              lg:text-xl
+              xl:py-3 xl:px-1
+            "
+          >
+            Contact
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <ul class="flex">
+          <li class="mr-3 cursor-pointer hover:text-yellow-200">
+            <i class="fab fa-facebook-f"></i>
+          </li>
+
+          <li class="mr-3 cursor-pointer hover:text-yellow-200">
+            <i class="fab fa-twitter"></i>
+          </li>
+
+          <li class="mr-3 cursor-pointer hover:text-yellow-200">
+            <i class="fab fa-instagram"></i>
+          </li>
+
+          <li class="cursor-pointer hover:text-yellow-200">
+            <i class="fab fa-linkedin-in"></i>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
