@@ -32150,6 +32150,14 @@ video {
 
 /* Screens */
 
+@media (min-width: 640px) {
+  /* Card */
+
+  .display {
+    display: none
+  }
+}
+
 @media (min-width: 768px) {
   /* Header */
 
@@ -32191,6 +32199,12 @@ video {
     -moz-column-gap: 1.5rem;
          column-gap: 1.5rem;
     row-gap: 2rem
+  }
+
+  /* Card */
+
+  .display {
+    display: grid
   }
 
   /* Single card */

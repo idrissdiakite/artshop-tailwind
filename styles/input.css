@@ -129,6 +129,14 @@
 
 /* Screens */
 
+@screen sm {
+
+    /* Card */
+    .display {
+        @apply hidden
+    }
+}
+
 @screen md {
 
     /* Header */
@@ -160,6 +168,11 @@
     /* Cards */
     .cards {
         @apply grid-cols-auto-fill-md gap-x-6 gap-y-8
+    }
+
+    /* Card */
+    .display {
+        @apply grid
     }
 
     /* Single card */
