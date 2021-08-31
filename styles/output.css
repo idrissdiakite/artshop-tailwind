@@ -31963,7 +31963,10 @@ video {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   padding-top: 0.25rem;
-  padding-bottom: 0.25rem
+  padding-bottom: 0.25rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms
 }
 
 .btn-plus {

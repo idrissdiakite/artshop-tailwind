@@ -19,7 +19,7 @@
 }
 
 .card-info {
-    @apply flex justify-between py-1 px-3 bg-yellow-50
+    @apply flex justify-between py-1 px-3 bg-yellow-50 transition-all
 }
 
 .btn-plus {
