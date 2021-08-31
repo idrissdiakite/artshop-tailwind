@@ -32123,7 +32123,7 @@ video {
 /* Footer */
 
 .footer {
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: flex;
   height: auto;
   align-items: center;
@@ -32274,8 +32274,6 @@ video {
     padding-bottom: 0.5rem
   }
 
-  /* Footer */
-
   .footer-icons {
     font-size: 1.25rem;
     line-height: 1.75rem
@@ -32323,8 +32321,8 @@ video {
 
   .footer-links {
     margin-right: 0.75rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem
+    padding-top: 1rem;
+    padding-bottom: 1rem
   }
 }
 

@@ -115,7 +115,7 @@
 /* Footer */
 
 .footer {
-    @apply flex items-center justify-between bg-black text-white h-auto px-8 py-5 mt-8
+    @apply flex items-center justify-between bg-black text-white h-auto px-8 py-5 mt-4
 }
 
 .footer-links, .footer-icons {
@@ -225,7 +225,6 @@
         @apply py-2 px-6
     }
 
-    /* Footer */
     .footer-icons {
         @apply text-xl
     }
@@ -263,7 +262,7 @@
 
     /* Footer */
     .footer-links {
-        @apply mr-3 py-6
+        @apply mr-3 py-4
     }
 
 }
