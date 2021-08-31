@@ -2,13 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
-.links {
-    @apply text-sm cursor-pointer py-1 px-2 mr-2
+/* Navigation */
+
+.nav {
+    @apply flex justify-between items-center sticky top-0 bg-white shadow-sm p-4 z-10
 }
+
+.nav-logo {
+    @apply w-10 mr-5 
+}
+
+.nav-icons {
+    @apply cursor-pointer mr-2 w-4 
+}
+
+.links {
+    @apply cursor-pointer py-1 px-2 mr-1
+}
+
+.links:hover {
+    @apply bg-yellow-50
+}
+
+.header {
+    @apply flex flex-col justify-center items-center bg-yellow-50 p-12 pt-16
+}
+
+.header-title {
+    @apply text-center text-3xl font-bold mb-2 max-w-md
+}
+
+.header-subtitle {
+    @apply text-center text-2xl font-bold mb-2 max-w-md
+}
+
+.header-btn {
+    @apply text-sm py-2 px-3 bg-gray-100 rounded-sm cursor-pointer mb-5 mt-2
+}
+
+.header-btn:hover {
+    @apply bg-yellow-200
+}
+
+/* Section */ 
+
+.section {
+    @apply bg-white p-6 pt-4
+}
+
+.section-title {
+    @apply text-center uppercase font-bold text-2xl mb-8
+}
+
+/* Cards */
 
 .cards {
     @apply grid grid-cols-1 justify-center items-center mx-auto max-w-full gap-y-6
 }
+
+/* Single card */ 
 
 .card {
     @apply cursor-pointer
@@ -18,10 +70,43 @@
     @apply w-full transition ease-in duration-300 object-cover h-sm
 }
 
+.card-img:hover {
+    @apply opacity-90
+}
+
 .card-info {
     @apply flex justify-between py-1 px-3 bg-yellow-50 transition-all
 }
 
-.btn-plus {
-    @apply py-2 px-12 text-sm bg-gray-100 cursor-pointer rounded-sm mt-2 transition-all
+.card-info:hover {
+    @apply bg-yellow-200
 }
+
+/* Btn show more */
+
+.btn-container {
+    @apply text-center mt-5 mb-12 m-3
+}
+
+.btn-plus {
+    @apply text-sm bg-gray-100 cursor-pointer rounded-sm transition-all py-2 px-12 mt-2
+}
+
+.btn-plus:hover {
+    @apply bg-yellow-200
+}
+/* Footer */
+
+.footer {
+    @apply flex items-center justify-between bg-black text-white h-auto px-8 py-5 mt-8
+}
+
+.footer-links, .footer-icons {
+    @apply cursor-pointer mr-3
+}
+
+.footer-links:hover, .footer-icons:hover {
+    @apply text-yellow-200
+}
+
+/* Screens */
