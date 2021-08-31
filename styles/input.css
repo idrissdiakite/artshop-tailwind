@@ -12,17 +12,20 @@
     @apply w-10 mr-5 
 }
 
+.nav-links {
+    @apply cursor-pointer py-1 px-2 mr-1
+}
+
+.nav-links:hover {
+    @apply bg-yellow-50
+}
+
 .nav-icons {
     @apply cursor-pointer mr-2 w-4 
 }
 
-.links {
-    @apply cursor-pointer py-1 px-2 mr-1
-}
 
-.links:hover {
-    @apply bg-yellow-50
-}
+/* Header */
 
 .header {
     @apply flex flex-col justify-center items-center bg-yellow-50 p-12 pt-16
@@ -44,6 +47,7 @@
     @apply bg-yellow-200
 }
 
+
 /* Section */ 
 
 .section {
@@ -54,11 +58,13 @@
     @apply text-center uppercase font-bold text-2xl mb-8
 }
 
+
 /* Cards */
 
 .cards {
     @apply grid grid-cols-1 justify-center items-center mx-auto max-w-full gap-y-6
 }
+
 
 /* Single card */ 
 
@@ -82,6 +88,15 @@
     @apply bg-yellow-200
 }
 
+.card-name, .card-price {
+    @apply font-bold 
+}
+
+.card-title {
+    @apply -mt-1 
+}
+
+
 /* Btn show more */
 
 .btn-container {
@@ -95,6 +110,8 @@
 .btn-plus:hover {
     @apply bg-yellow-200
 }
+
+
 /* Footer */
 
 .footer {
@@ -109,4 +126,131 @@
     @apply text-yellow-200
 }
 
+
 /* Screens */
+
+@screen md {
+
+    /* Header */
+    .header-title {
+        @apply text-6xl
+    }
+
+    .header-subtitle {
+        @apply text-3xl
+    }
+
+    /* Cards */
+    .cards {
+        @apply grid-cols-auto-fill-md gap-x-4
+    }
+}
+
+@screen lg {
+    
+    /* Nav */
+    .nav-logo {
+        @apply w-14
+    }
+
+    .nav-links {
+        @apply text-xl
+    }
+
+    /* Cards */
+    .cards {
+        @apply grid-cols-auto-fill-md gap-x-6 gap-y-8
+    }
+
+    /* Single card */
+    .card-img {
+        @apply h-lg
+    }
+
+    /* Footer */
+    .footer-links {
+        @apply text-xl mr-2
+    }
+}
+
+@screen xl {
+    
+    /* Nav */
+    .nav-logo {
+        @apply w-10
+    }
+
+    .nav-links {
+        @apply py-3 px-4
+    }
+
+    .nav-icons {
+        @apply w-6
+    }
+
+    /* header */
+    .header-title {
+        @apply text-8xl
+    }
+
+    /* Cards */
+    .cards {
+        @apply grid-cols-auto-fill-xl gap-x-4
+    }
+
+    /* Single card */
+    .card {
+        @apply max-w-full
+    }
+
+    .card-img {
+        @apply h-xl
+    }
+
+    /* Btn show more */
+    .btn-plus {
+        @apply py-2 px-6
+    }
+
+    /* Footer */
+    .footer-icons {
+        @apply text-xl
+    }
+}
+
+@screen 2xl {
+
+    /* Nav */
+    .nav {
+        @apply px-6
+    }
+
+    .nav-logo {
+        @apply w-16
+    }
+
+    /* Cards */
+    .cards {
+        @apply grid-cols-4 max-w-4/5
+    }
+    
+    /* Single card */
+    .card-img {
+        @apply h-lg
+    }
+
+    .card-name, .card-title, .card-price {
+        @apply text-xl
+    }
+
+    /* Btn show more */
+    .btn-plus {
+        @apply text-xl
+    }
+
+    /* Footer */
+    .footer-links {
+        @apply mr-3 py-6
+    }
+
+}

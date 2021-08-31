@@ -15,37 +15,26 @@
   <body>
     <main>
       <! -- navigation -->
-      <nav class="nav 2xl:px-6">
-        <img
-          src="./assets/logo.png"
-          class="nav-logo lg:w-14 xl:w-10 2xl:w-16"
-        />
+      <nav class="nav">
+        <img src="./assets/logo.png" class="nav-logo" />
         <div class="flex items-center">
           <ul class="flex">
-            <li class="links lg:text-xl xl:py-3 xl:px-4">Accueil</li>
-            <li class="links lg:text-xl xl:py-3 xl:px-4">Boutique</li>
-            <li class="links lg:text-xl xl:py-3 xl:px-4">Contact</li>
+            <li class="nav-links">Accueil</li>
+            <li class="nav-links">Boutique</li>
+            <li class="nav-links">Contact</li>
           </ul>
 
           <div class="flex mr-3">
-            <img
-              src="./assets/svg/heart.svg"
-              class="nav-icons xl:w-6"
-            />
-            <img
-              src="./assets/svg/shopping-cart.svg"
-              class="nav-icons xl:w-6"
-            />
+            <img src="./assets/svg/heart.svg" class="nav-icons" />
+            <img src="./assets/svg/shopping-cart.svg" class="nav-icons" />
           </div>
         </div>
       </nav>
 
       <! -- header -->
       <header class="header">
-        <h1 class="header-title md:text-6xl xl:text-8xl">Artshop</h1>
-        <h2 class="header-subtitle md:text-3xl">
-          Paradis des oeuvres d'art
-        </h2>
+        <h1 class="header-title">Artshop</h1>
+        <h2 class="header-subtitle">Paradis des oeuvres d'art</h2>
         <a href="#photography">
           <button class="header-btn">
             Découvrir <i class="fas fa-mouse-pointer"></i>
@@ -58,178 +47,140 @@
         <h2 class="section-title">Peintures</h2>
 
         <! -- cards -->
-        <div
-          class="
-            cards
-            md:grid-cols-auto-fill-md md:gap-x-4
-            lg:grid-cols-auto-fill-lg lg:gap-x-6 lg:gap-y-8
-            xl:grid-cols-auto-fill-xl xl:gap-x-4
-            2xl:grid-cols-4 2xl:max-w-4/5
-          "
-        >
+        <div class="cards">
           <! -- single card -->
-          <div class="card xl:max-w-full">
+          <div class="card">
             <img
               src="./assets/1.jpg"
               alt="Flowers in a Metal Vase"
-              class="card-img lg:h-lg xl:h-xl 2xl:h-lg"
+              class="card-img"
             />
             <div class="card-info">
               <div>
-                <h4 class="font-bold 2xl:text-xl">Abraham Mignon</h4>
-                <h4 class="-mt-1 2xl:text-xl">Flowers in a metal vase</h4>
+                <h4 class="card-name">Abraham Mignon</h4>
+                <h4 class="card-title">Flowers in a metal vase</h4>
               </div>
-              <h4 class="font-bold 2xl:text-xl">4.699€</h4>
+              <h4 class="card-price">4.699€</h4>
             </div>
           </div>
 
           <! -- single card -->
-          <div class="card xl:max-w-full">
+          <div class="card">
             <img
               src="./assets/7.jpg"
               alt="In Vaudeville two acrobat-jugglers"
-              class="card-img lg:h-lg xl:h-xl 2xl:h-lg"
+              class="card-img"
             />
             <div class="card-info">
               <div>
-                <h4 class="font-bold 2xl:text-xl">Charles Demuth</h4>
-                <h4 class="-mt-1 2xl:text-xl">In Vaudeville two acrobats</h4>
+                <h4 class="card-name">Charles Demuth</h4>
+                <h4 class="card-title">In Vaudeville two acrobats</h4>
               </div>
-              <h4 class="font-bold 2xl:text-xl">9.500€</h4>
+              <h4 class="card-price">9.500€</h4>
             </div>
           </div>
 
           <! -- single card -->
-          <div class="card xl:max-w-full">
-            <img
-              src="./assets/2.jpg"
-              alt="The straw hat"
-              class="card-img lg:h-lg xl:h-xl 2xl:h-lg"
-            />
+          <div class="card">
+            <img src="./assets/2.jpg" alt="The straw hat" class="card-img" />
             <div class="card-info">
               <div>
-                <h4 class="font-bold 2xl:text-xl">Nikos Lytras</h4>
-                <h4 class="-mt-1 2xl:text-xl">The straw hat</h4>
+                <h4 class="card-name">Nikos Lytras</h4>
+                <h4 class="card-title">The straw hat</h4>
               </div>
-              <h4 class="font-bold 2xl:text-xl">2.300€</h4>
+              <h4 class="card-price">2.300€</h4>
             </div>
           </div>
 
           <! -- single card -->
-          <div class="card xl:max-w-full">
-            <img
-              src="./assets/3.jpg"
-              alt="Wooded landscape"
-              class="card-img lg:h-lg xl:h-xl 2xl:h-lg"
-            />
+          <div class="card">
+            <img src="./assets/3.jpg" alt="Wooded landscape" class="card-img" />
             <div class="card-info">
               <div>
-                <h4 class="font-bold 2xl:text-xl">Rijksmuseum</h4>
-                <h4 class="-mt-1 2xl:text-xl">Wooded landscape</h4>
+                <h4 class="card-name">Rijksmuseum</h4>
+                <h4 class="card-title">Wooded landscape</h4>
               </div>
-              <h4 class="font-bold 2xl:text-xl">1090€</h4>
+              <h4 class="card-price">1090€</h4>
             </div>
           </div>
         </div>
 
         <! -- btn -->
         <div class="btn-container">
-          <button
-            class="btn-plus xl:py-2 xl:px-6 2xl:text-xl"
-          >
-            Voir la suite
-          </button>
+          <button class="btn-plus">Voir la suite</button>
         </div>
       </section>
 
       <! -- section photography -->
       <section id="photography" class="section">
-        <h2 class="section-title">
-          Photographies
-        </h2>
+        <h2 class="section-title">Photographies</h2>
 
         <! -- cards -->
-        <div
-          class="
-            cards
-            md:grid-cols-auto-fill-md md:gap-x-4
-            lg:grid-cols-auto-fill-lg lg:gap-x-6 lg:gap-y-8
-            xl:grid-cols-auto-fill-xl xl:gap-x-4
-            2xl:grid-cols-4 2xl:max-w-4/5
-          "
-        >
+        <div class="cards">
           <! -- single card -->
-          <div class="card xl:max-w-full">
+          <div class="card">
             <img
               src="./assets/6.jpg"
               alt="It's just a cigarette"
-              class="card-img lg:h-lg xl:h-xl 2xl:h-lg"
+              class="card-img"
             />
             <div class="card-info">
               <div>
-                <h4 class="font-bold 2xl:text-xl">Roman Melnychuk</h4>
-                <h4 class="-mt-1 2xl:text-xl">It's just a cigarette</h4>
+                <h4 class="card-name">Roman Melnychuk</h4>
+                <h4 class="card-title">It's just a cigarette</h4>
               </div>
-              <h4 class="font-bold 2xl:text-xl">1.280€</h4>
+              <h4 class="card-price">1.280€</h4>
             </div>
           </div>
 
           <! -- single card -->
-          <div class="card xl:max-w-full">
-            <img
-              src="./assets/5.jpg"
-              alt="Reflecting light"
-              class="card-img lg:h-lg xl:h-xl 2xl:h-lg"
-            />
+          <div class="card">
+            <img src="./assets/5.jpg" alt="Reflecting light" class="card-img" />
             <div class="card-info">
               <div>
-                <h4 class="font-bold 2xl:text-xl">Blake Cheek</h4>
-                <h4 class="-mt-1 2xl:text-xl">Reflecting light</h4>
+                <h4 class="card-name">Blake Cheek</h4>
+                <h4 class="card-title">Reflecting light</h4>
               </div>
-              <h4 class="font-bold 2xl:text-xl">850€</h4>
+              <h4 class="card-price">850€</h4>
             </div>
           </div>
 
           <! -- single card -->
-          <div class="card xl:max-w-full">
+          <div class="card">
             <img
               src="./assets/11.jpg"
               alt="Woman in white shirt"
-              class="card-img lg:h-lg xl:h-xl 2xl:h-lg"
+              class="card-img"
             />
             <div class="card-info">
               <div>
-                <h4 class="font-bold 2xl:text-xl">Logan Weaver</h4>
-                <h4 class="-mt-1 2xl:text-xl">Woman in white shirt</h4>
+                <h4 class="card-name">Logan Weaver</h4>
+                <h4 class="card-title">Woman in white shirt</h4>
               </div>
-              <h4 class="font-bold 2xl:text-xl">279€</h4>
+              <h4 class="card-price">279€</h4>
             </div>
           </div>
 
           <! -- single card -->
-          <div class="card xl:max-w-full">
+          <div class="card">
             <img
               src="./assets/4.jpg"
               alt="Somewhere in Lyon..."
-              class="card-img lg:h-lg xl:h-xl 2xl:h-lg"
+              class="card-img"
             />
             <div class="card-info">
               <div>
-                <h4 class="font-bold 2xl:text-xl">David Werbrouck</h4>
-                <h4 class="-mt-1 2xl:text-xl">Somewhere in Lyon...</h4>
+                <h4 class="card-name">David Werbrouck</h4>
+                <h4 class="card-title">Somewhere in Lyon...</h4>
               </div>
-              <h4 class="font-bold 2xl:text-xl">699€</h4>
+              <h4 class="card-price">699€</h4>
             </div>
           </div>
         </div>
 
         <! -- btn -->
         <div class="btn-container">
-          <button
-            class="btn-plus xl:py-2 xl:px-6 2xl:text-xl"
-          >
-            Voir la suite
-          </button>
+          <button class="btn-plus">Voir la suite</button>
         </div>
       </section>
     </main>
@@ -238,15 +189,9 @@
     <footer class="footer">
       <div>
         <ul class="flex">
-          <li class="footer-links lg:text-xl lg:mr-2 xl:py-3 xl:px-1">
-            Accueil
-          </li>
-          <li class="footer-links lg:text-xl lg:mr-2 xl:py-3 xl:px-1">
-            Boutique
-          </li>
-          <li class="footer-links lg:text-xl lg:mr-2 xl:py-3 xl:px-1">
-            Contact
-          </li>
+          <li class="footer-links">Accueil</li>
+          <li class="footer-links">Boutique</li>
+          <li class="footer-links">Contact</li>
         </ul>
       </div>
 
