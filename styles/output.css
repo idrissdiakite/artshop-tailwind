@@ -6390,7 +6390,7 @@ video {
 }
 
 .h-md {
-  height: 450px;
+  height: 700px;
 }
 
 .h-lg {
@@ -32302,7 +32302,7 @@ video {
   /* Single card */
 
   .card-img {
-    height: 550px
+    height: 700px
   }
 
   .card-name, .card-title, .card-price {
@@ -38154,7 +38154,7 @@ video {
   }
 
   .sm\:h-md {
-    height: 450px;
+    height: 700px;
   }
 
   .sm\:h-lg {
@@ -69429,7 +69429,7 @@ video {
   }
 
   .md\:h-md {
-    height: 450px;
+    height: 700px;
   }
 
   .md\:h-lg {
@@ -100704,7 +100704,7 @@ video {
   }
 
   .lg\:h-md {
-    height: 450px;
+    height: 700px;
   }
 
   .lg\:h-lg {
@@ -131979,7 +131979,7 @@ video {
   }
 
   .xl\:h-md {
-    height: 450px;
+    height: 700px;
   }
 
   .xl\:h-lg {
@@ -163254,7 +163254,7 @@ video {
   }
 
   .\32xl\:h-md {
-    height: 450px;
+    height: 700px;
   }
 
   .\32xl\:h-lg {

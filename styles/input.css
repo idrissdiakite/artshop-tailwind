@@ -248,7 +248,7 @@
     
     /* Single card */
     .card-img {
-        @apply h-lg
+        @apply h-md
     }
 
     .card-name, .card-title, .card-price {

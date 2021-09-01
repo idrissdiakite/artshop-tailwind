@@ -9,7 +9,7 @@ module.exports = {
       },
       height: {
         sm: "800px",
-        md: "450px",
+        md: "700px",
         lg: "550px",
         xl: "350px",
       },
