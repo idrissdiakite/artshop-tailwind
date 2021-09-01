@@ -31921,14 +31921,17 @@ video {
   position: sticky;
   top: 0px;
   z-index: 10;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   --tw-bg-opacity: 1;
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
   padding: 1rem;
   --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between
 }
 
 .nav-logo {
@@ -32124,10 +32127,7 @@ video {
 
 .footer {
   margin-top: 1rem;
-  display: flex;
   height: auto;
-  align-items: center;
-  justify-content: space-between;
   --tw-bg-opacity: 1;
   background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
   padding-left: 2rem;
@@ -32136,6 +32136,12 @@ video {
   padding-bottom: 1.25rem;
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity))
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between
 }
 
 .footer-links, .footer-icons {
@@ -32288,8 +32294,17 @@ video {
     padding-right: 1.5rem
   }
 
+  .nav-container, .footer-container {
+    margin: auto;
+    max-width: 80%
+  }
+
   .nav-logo {
     width: 4rem
+  }
+
+  .nav-icons:last-child, .footer-icons:last-child {
+    margin-right: 0px
   }
 
   /* Cards */
@@ -32311,6 +32326,10 @@ video {
   }
 
   /* Btn show more */
+
+  .btn-container {
+    margin-top: 2rem
+  }
 
   .btn-plus {
     font-size: 1.25rem;

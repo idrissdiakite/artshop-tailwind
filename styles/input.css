@@ -5,7 +5,11 @@
 /* Navigation */
 
 .nav {
-    @apply flex justify-between items-center sticky top-0 bg-white shadow-sm p-4 z-10
+    @apply sticky top-0 bg-white shadow-sm p-4 z-10
+}
+
+.nav-container {
+    @apply flex justify-between items-center 
 }
 
 .nav-logo {
@@ -115,7 +119,11 @@
 /* Footer */
 
 .footer {
-    @apply flex items-center justify-between bg-black text-white h-auto px-8 py-5 mt-4
+    @apply bg-black text-white h-auto px-8 py-5 mt-4
+}
+
+.footer-container {
+    @apply flex items-center justify-between
 }
 
 .footer-links, .footer-icons {
@@ -237,8 +245,16 @@
         @apply px-6
     }
 
+    .nav-container, .footer-container {
+        @apply max-w-4/5 m-auto
+    }
+
     .nav-logo {
         @apply w-16
+    }
+
+    .nav-icons:last-child, .footer-icons:last-child {
+        @apply mr-0
     }
 
     /* Cards */
@@ -256,6 +272,10 @@
     }
 
     /* Btn show more */
+    .btn-container {
+        @apply mt-8
+    }
+
     .btn-plus {
         @apply text-xl
     }
