@@ -97,7 +97,7 @@
 }
 
 .card-title {
-    @apply -mt-1 
+    @apply -mt-1 whitespace-nowrap
 }
 
 

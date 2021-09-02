@@ -32089,7 +32089,8 @@ video {
 }
 
 .card-title {
-  margin-top: -0.25rem
+  margin-top: -0.25rem;
+  white-space: nowrap
 }
 
 /* Btn show more */
