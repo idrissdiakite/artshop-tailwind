@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artshop</title>
+    <link rel="stylesheet" href="styles/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <main>
+      <! -- navigation -->
+      <nav class="nav">
+        <div class="nav-container">
+          <img src="./assets/logo.png" class="nav-logo" />
+          <div class="flex items-center">
+            <ul class="flex">
+              <li class="nav-links">Accueil</li>
+              <li class="nav-links">Boutique</li>
+              <li class="nav-links">Contact</li>
+            </ul>
+
+            <div class="flex mr-3">
+              <img src="./assets/svg/heart.svg" class="nav-icons" />
+              <img src="./assets/svg/shopping-cart.svg" class="nav-icons" />
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <! -- header -->
+      <header class="header">
+        <h1 class="header-title">Artshop</h1>
+        <h2 class="header-subtitle">Paradis des oeuvres d'art</h2>
+        <a href="#photography">
+          <button class="header-btn">
+            Découvrir <i class="fas fa-mouse-pointer"></i>
+          </button>
+        </a>
+      </header>
+
+      <! -- section painting -->
+      <section id="painting" class="section mt-12">
+        <h2 class="section-title">Peintures</h2>
+
+        <! -- cards -->
+        <div class="cards">
+          <! -- single card -->
+          <div class="card">
+            <img
+              src="./assets/1.jpg"
+              alt="Flowers in a Metal Vase"
+              class="card-img"
+            />
+            <div class="card-info">
+              <div>
+                <h4 class="card-name">Abraham Mignon</h4>
+                <h4 class="card-title">Flowers in a metal vase</h4>
+              </div>
+              <h4 class="card-price">4.699€</h4>
+            </div>
+          </div>
+
+          <! -- single card -->
+          <div class="card">
+            <img
+              src="./assets/7.jpg"
+              alt="In Vaudeville two acrobat-jugglers"
+              class="card-img"
+            />
+            <div class="card-info">
+              <div>
+                <h4 class="card-name">Charles Demuth</h4>
+                <h4 class="card-title">In Vaudeville two acrobats</h4>
+              </div>
+              <h4 class="card-price">9.500€</h4>
+            </div>
+          </div>
+
+          <! -- single card -->
+          <div class="card display">
+            <img src="./assets/2.jpg" alt="The straw hat" class="card-img" />
+            <div class="card-info">
+              <div>
+                <h4 class="card-name">Nikos Lytras</h4>
+                <h4 class="card-title">The straw hat</h4>
+              </div>
+              <h4 class="card-price">2.300€</h4>
+            </div>
+          </div>
+
+          <! -- single card -->
+          <div class="card display">
+            <img src="./assets/3.jpg" alt="Wooded landscape" class="card-img" />
+            <div class="card-info">
+              <div>
+                <h4 class="card-name">Rijksmuseum</h4>
+                <h4 class="card-title">Wooded landscape</h4>
+              </div>
+              <h4 class="card-price">1090€</h4>
+            </div>
+          </div>
+        </div>
+
+        <! -- btn -->
+        <div class="btn-container">
+          <button class="btn-plus">Voir la suite</button>
+        </div>
+      </section>
+
+      <! -- section photography -->
+      <section id="photography" class="section">
+        <h2 class="section-title">Photographies</h2>
+
+        <! -- cards -->
+        <div class="cards">
+          <! -- single card -->
+          <div class="card">
+            <img
+              src="./assets/6.jpg"
+              alt="It's just a cigarette"
+              class="card-img"
+            />
+            <div class="card-info">
+              <div>
+                <h4 class="card-name">Roman Melnychuk</h4>
+                <h4 class="card-title">It's just a cigarette</h4>
+              </div>
+              <h4 class="card-price">1.280€</h4>
+            </div>
+          </div>
+
+          <! -- single card -->
+          <div class="card">
+            <img src="./assets/5.jpg" alt="Reflecting light" class="card-img" />
+            <div class="card-info">
+              <div>
+                <h4 class="card-name">Blake Cheek</h4>
+                <h4 class="card-title">Reflecting light</h4>
+              </div>
+              <h4 class="card-price">850€</h4>
+            </div>
+          </div>
+
+          <! -- single card -->
+          <div class="card display">
+            <img
+              src="./assets/11.jpg"
+              alt="Woman in white shirt"
+              class="card-img"
+            />
+            <div class="card-info">
+              <div>
+                <h4 class="card-name">Logan Weaver</h4>
+                <h4 class="card-title">Woman in white shirt</h4>
+              </div>
+              <h4 class="card-price">279€</h4>
+            </div>
+          </div>
+
+          <! -- single card -->
+          <div class="card display">
+            <img
+              src="./assets/4.jpg"
+              alt="Somewhere in Lyon..."
+              class="card-img"
+            />
+            <div class="card-info">
+              <div>
+                <h4 class="card-name">David Werbrouck</h4>
+                <h4 class="card-title">Somewhere in Lyon...</h4>
+              </div>
+              <h4 class="card-price">699€</h4>
+            </div>
+          </div>
+        </div>
+
+        <! -- btn -->
+        <div class="btn-container">
+          <button class="btn-plus">Voir la suite</button>
+        </div>
+      </section>
+
+      <! -- section prints -->
+      <section id="print" class="section">
+        <h2 class="section-title">Illustrations</h2>
+
+        <! -- cards -->
+        <div class="cards">
+          <! -- single card -->
+          <div class="card">
+            <img
+              src="./assets/13.jpeg"
+              alt="Fish in black water"
+              class="card-img"
+            />
+            <div class="card-info">
+              <div>
+                <h4 class="card-name">McGill Library</h4>
+                <h4 class="card-title">Fish in black water</h4>
+              </div>
+              <h4 class="card-price">79€</h4>
+            </div>
+          </div>
+
+          <! -- single card -->
+          <div class="card">
+            <img src="./assets/14.png" alt="Leopard" class="card-img" />
+            <div class="card-info">
+              <div>
+                <h4 class="card-name">Agathe Singer</h4>
+                <h4 class="card-title">Leopard</h4>
+              </div>
+              <h4 class="card-price">59€</h4>
+            </div>
+          </div>
+
+          <! -- single card -->
+          <div class="card display">
+            <img src="./assets/12.png" alt="Music as a tool" class="card-img" />
+            <div class="card-info">
+              <div>
+                <h4 class="card-name">Léna Macka</h4>
+                <h4 class="card-title">Music as a tool</h4>
+              </div>
+              <h4 class="card-price">140€</h4>
+            </div>
+          </div>
+
+          <! -- single card -->
+          <div class="card display">
+            <img src="./assets/10.jpeg" alt="Team glasses" class="card-img" />
+            <div class="card-info">
+              <div>
+                <h4 class="card-name">Agathe Sorlet</h4>
+                <h4 class="card-title">Team glasses</h4>
+              </div>
+              <h4 class="card-price">80€</h4>
+            </div>
+          </div>
+        </div>
+
+        <! -- btn -->
+        <div class="btn-container">
+          <button class="btn-plus">Voir la suite</button>
+        </div>
+      </section>
+    </main>
+
+    <! -- footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div>
+          <ul class="flex">
+            <li class="footer-links">Accueil</li>
+            <li class="footer-links">Boutique</li>
+            <li class="footer-links">Contact</li>
+          </ul>
+        </div>
+
+        <div>
+          <ul class="flex">
+            <li class="footer-icons">
+              <i class="fab fa-facebook-f"></i>
+            </li>
+
+            <li class="footer-icons">
+              <i class="fab fa-twitter"></i>
+            </li>
+
+            <li class="footer-icons">
+              <i class="fab fa-instagram"></i>
+            </li>
+
+            <li class="footer-icons">
+              <i class="fab fa-linkedin-in"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
