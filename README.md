@@ -16,3 +16,4 @@ Vidéo de démonstration de l'application disponible [ici](https://drive.google.
 ## :exclamation: Précision
 
 À noter que le projet n'a pas été purgé exprès (du css inutilisé) en vue de futures modifications.
+
